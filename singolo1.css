@@ -91,15 +91,19 @@ li {
     overflow: hidden;
     width: 188px;
     height: 333px;
-    padding-left: 47px;
-    padding-top: 111px
+    margin-left: 47px;
+    margin-top: 111px
 }
 
 .layer-vertical_prop, .layer-horizontal_prop {
     position: relative;
+    margin-left: -14px;
+    margin-top: -135px;
     z-index: 3;
 }
 .layer-horizontal_prop {
+    margin-top: -122px;
+    margin-left: -119px;
     transform: rotate(-90deg);
 }
 .vertical-phone_prop, .horizontal-phone-prop {
@@ -244,7 +248,7 @@ li {
     margin-top: 10px;
     font-family: 'LatoRegular',sans-serif;
     width: 219px;
-    height: 128px;
+    height: 70px;
     line-height: 22px;
     color: #767e9e;
     text-align: justify;
