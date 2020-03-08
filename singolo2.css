@@ -8,7 +8,7 @@ html {
     font-size: 100%;
 }
 
-.main-wrapper {
+.main-wrapper-portfolio {
     display: flex;
     flex-direction: column;
     padding: 69px 0 0 0;
@@ -18,10 +18,7 @@ html {
     background-color: #2d303a;
     box-shadow: 0 6px 0 #323746;
 }
-.wrapper {
-    padding-left: 40px;
-}
-h1 {
+.about-us h1 {
     font-family: LatoBlack, sans-serif;
     letter-spacing: -0.2px;
     font-size: 30px;
@@ -30,7 +27,19 @@ h1 {
     font-weight: 900;
     text-align: left;
 }
-.wrapper p {
+.wrapper-portfolio {
+    padding-left: 40px;
+}
+.wrapper-portfolio h1 {
+    font-family: LatoBlack, sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+.wrapper-portfolio p {
     font-family: LatoLight, sans-serif;
     padding-top: 27px;
     font-size: 18px;
@@ -88,6 +97,9 @@ h1 {
 }
 .section-content {
     list-style-type: none;
+}
+.section-content-item:nth-child(n+13){
+    display: none;
 }
 .section-content {
     width: 941px;
@@ -225,6 +237,9 @@ h1 {
 .about-us_people h4 {
     margin-top: 17px;
     font-family: LatoBlack, sans-serif;
+    width: 127px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .about-us_people p {
